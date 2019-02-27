@@ -1,0 +1,99 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px; 
+	color: $primary-color;
+	background-color:$primary-background;
+
+}
+
+.container {
+
+}
+
+.starter-template{
+padding:0px;
+margin:0px;
+}
+ 
+ article {
+	 background-color:$secondary-background;
+	 color:$navbar_footer-color;
+	 text-align:center;
+	 margin:80px 0px 0px 0px;
+	 font-family: 'Roboto', sans-serif;
+	 
+ }
+ 
+ .project-content{
+	 margin:0px;
+	 background-color:$primary-background;
+	 color:$search_gray_background;
+	 padding:20px 0px 0px 200px;
+ }
+ 
+  .project-content2{
+	 margin:0px;
+	 background-color:$navbar_footer-color;
+	 color:$search_gray_background;
+	 padding:20px 0px 0px 200px;
+ }
+ .card-partners{
+	 width:15rem;
+ }
+ 
+ .partners{
+	 cursor:pointer;
+	 color:$search_gray_background;
+ }
+ 
+ .partners:hover{
+	 cursor:pointer;
+	 color:$search_gray_color;
+ }
+ 
+ 
+ 
+   .blog{
+	 margin:0px;
+	 background-color:$primary-background;
+	 color:$search_gray_background;
+	 padding:20px 0px 0px 200px;
+ }
+ 
+.view
+{
+	padding-right:180px;
+	font-size:1rem;
+}
+
+.partners{
+	padding-top:80px;
+}
+
+ .img-responsive
+ {
+	 max-width:45%;
+	 height:auto;
+	 padding:20px;
+	 margin:auto;
+	 display:block; 
+ }
+
+ .phone
+ {
+	 max-width:100%;
+	 height:auto;
+	 padding:20px;
+	 margin:auto;
+	 display:block; 
+ }
+ /*
+ .chess-pig-bulb{
+ max-width:50%;
+	 height:auto;
+	 padding:20px;
+	 margin:auto;
+	 display:block; 
+ }*/
+
+ 

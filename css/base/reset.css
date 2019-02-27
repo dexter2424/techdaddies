@@ -1,0 +1,10 @@
+/* line 1, ../../scss/base/reset.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 6, ../../scss/base/reset.scss */
+ul, li {
+  list-style: none;
+}

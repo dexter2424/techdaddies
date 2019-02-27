@@ -1,0 +1,41 @@
+nav {
+	height:80px;
+	color:$navbar_footer-color;
+	background-color:$navbar_footer-background;
+	font-size: large;
+	display: inline-block;
+}
+
+
+
+.nav-item{
+padding: 5px;
+}
+
+#techdaddiesLogo{
+	width:80%;
+}
+
+.field
+{
+	background-color:$search_gray_background;
+	border: 0px;
+	border-radius:5px 0px 0px 5px;
+}
+
+
+
+.btn{
+	
+	background-color:$search_gray_background;
+	border-radius:0px 5px 5px 0px;
+}
+
+.fa{
+	color:$search_gray_color;
+}
+
+#searchform{
+padding:10%;
+}
+

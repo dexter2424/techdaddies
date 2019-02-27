@@ -1,0 +1,125 @@
+.tab
+{
+    font-size: 1rem;
+
+    @media (min-width: 576px) {
+        font-size: 1rem;
+    }
+
+       @media (min-width: 768px) {
+        font-size: 1rem;
+    }
+	
+	    @media (min-width: 992px) {
+        font-size: 1.1rem;
+    }
+	
+	    @media (min-width: 1200px) {
+        font-size: 1.4rem;
+    }
+}
+
+.row{
+	text-align:left;
+}
+
+.partners{
+	
+}
+
+.card {
+	width: 25rem;
+	}
+
+/*Three equal column*/
+.column {
+    float: inherit;
+    width: 33.33%;
+	padding: 0px;
+		
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 1500px) {
+    .column {
+        width:33%;
+    }
+	.card {
+	width: 20rem;
+	}	
+}
+
+@media screen and (max-width: 1200px) {
+    .column {
+        width:33%;
+    }
+	.card {
+	width: 16.5rem;
+	}	
+}
+
+@media screen and (max-width: 992px) {
+    .column {
+        width: 100%;
+    }
+	.card {
+	width: 25rem;
+	}	
+}
+
+
+@media screen and (max-width: 768px) {
+    .column {
+        width: 100%;
+    }
+		.card {
+	width: 22rem;
+	}
+}
+
+/*Chess-Pig-Bulb size*/
+
+
+@media screen and (max-width: 1200px) {
+ 
+	.project-p{
+		font-size:1.2rem;
+	}
+	.project-h4{
+		font-size:1.6rem;
+	}
+}
+
+@media screen and (max-width: 992px) {
+ 
+	.project-p{
+		font-size:1rem;
+	}
+	.project-h4{
+		font-size:1.4rem;
+	}
+		.col-responsive {
+        width: 100%;
+    }	
+}
+
+@media screen and (max-width: 768px) {
+    .chess-pig-bulb {
+        visibility: hidden;
+    }
+	.project-p{
+		font-size:0.8rem;
+	}
+	.project-h4{
+		font-size:1rem;
+	}
+	.blog h1{
+		font-size:2rem;
+	}
+}

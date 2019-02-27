@@ -1,0 +1,17 @@
+footer
+{
+	font-family: 'Raleway', sans-serif;
+	background:$navbar_footer-background;
+	color:$primary-background;
+	text-align:center;
+	
+}
+
+footer a, a:hover{
+color:$navbar_footer-color;
+text-decoration: none;
+}
+
+footer h3{
+	font-weight:bold;
+}

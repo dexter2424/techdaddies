@@ -1,0 +1,148 @@
+/* line 2, ../../scss/modules/blocks.scss */
+.tab {
+  font-size: 1rem;
+}
+@media (min-width: 576px) {
+  /* line 2, ../../scss/modules/blocks.scss */
+  .tab {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 768px) {
+  /* line 2, ../../scss/modules/blocks.scss */
+  .tab {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 992px) {
+  /* line 2, ../../scss/modules/blocks.scss */
+  .tab {
+    font-size: 1.1rem;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 2, ../../scss/modules/blocks.scss */
+  .tab {
+    font-size: 1.4rem;
+  }
+}
+
+/* line 22, ../../scss/modules/blocks.scss */
+.row {
+  text-align: left;
+}
+
+/* line 30, ../../scss/modules/blocks.scss */
+.card {
+  width: 25rem;
+}
+
+/*Three equal column*/
+/* line 35, ../../scss/modules/blocks.scss */
+.column {
+  float: inherit;
+  width: 33.33%;
+  padding: 0px;
+}
+
+/* Clear floats after the columns */
+/* line 43, ../../scss/modules/blocks.scss */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 1500px) {
+  /* line 50, ../../scss/modules/blocks.scss */
+  .column {
+    width: 33%;
+  }
+
+  /* line 53, ../../scss/modules/blocks.scss */
+  .card {
+    width: 20rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  /* line 59, ../../scss/modules/blocks.scss */
+  .column {
+    width: 33%;
+  }
+
+  /* line 62, ../../scss/modules/blocks.scss */
+  .card {
+    width: 16.5rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  /* line 68, ../../scss/modules/blocks.scss */
+  .column {
+    width: 100%;
+  }
+
+  /* line 71, ../../scss/modules/blocks.scss */
+  .card {
+    width: 25rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 78, ../../scss/modules/blocks.scss */
+  .column {
+    width: 100%;
+  }
+
+  /* line 81, ../../scss/modules/blocks.scss */
+  .card {
+    width: 22rem;
+  }
+}
+/*Chess-Pig-Bulb size*/
+@media screen and (max-width: 1200px) {
+  /* line 91, ../../scss/modules/blocks.scss */
+  .project-p {
+    font-size: 1.2rem;
+  }
+
+  /* line 94, ../../scss/modules/blocks.scss */
+  .project-h4 {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  /* line 101, ../../scss/modules/blocks.scss */
+  .project-p {
+    font-size: 1rem;
+  }
+
+  /* line 104, ../../scss/modules/blocks.scss */
+  .project-h4 {
+    font-size: 1.4rem;
+  }
+
+  /* line 107, ../../scss/modules/blocks.scss */
+  .col-responsive {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 113, ../../scss/modules/blocks.scss */
+  .chess-pig-bulb {
+    visibility: hidden;
+  }
+
+  /* line 116, ../../scss/modules/blocks.scss */
+  .project-p {
+    font-size: 0.8rem;
+  }
+
+  /* line 119, ../../scss/modules/blocks.scss */
+  .project-h4 {
+    font-size: 1rem;
+  }
+
+  /* line 122, ../../scss/modules/blocks.scss */
+  .blog h1 {
+    font-size: 2rem;
+  }
+}
